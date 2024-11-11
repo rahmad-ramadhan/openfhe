@@ -1,0 +1,4 @@
+/home/rama/openfhe/build/CMakeFiles/main.dir
+/home/rama/openfhe/build/CMakeFiles/main2.dir
+/home/rama/openfhe/build/CMakeFiles/edit_cache.dir
+/home/rama/openfhe/build/CMakeFiles/rebuild_cache.dir
