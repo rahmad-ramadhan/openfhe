@@ -1,4 +1,7 @@
-/home/rama/openfhe/build/CMakeFiles/main.dir
-/home/rama/openfhe/build/CMakeFiles/main2.dir
+/home/rama/openfhe/build/CMakeFiles/addition.dir
+/home/rama/openfhe/build/CMakeFiles/multiplication.dir
+/home/rama/openfhe/build/CMakeFiles/matrix_multiplication.dir
+/home/rama/openfhe/build/CMakeFiles/activation_function.dir
+/home/rama/openfhe/build/CMakeFiles/test.dir
 /home/rama/openfhe/build/CMakeFiles/edit_cache.dir
 /home/rama/openfhe/build/CMakeFiles/rebuild_cache.dir

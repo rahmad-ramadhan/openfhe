@@ -44,6 +44,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
-  "CMakeFiles/main2.dir/DependInfo.cmake"
+  "CMakeFiles/addition.dir/DependInfo.cmake"
+  "CMakeFiles/multiplication.dir/DependInfo.cmake"
+  "CMakeFiles/matrix_multiplication.dir/DependInfo.cmake"
+  "CMakeFiles/activation_function.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
   )

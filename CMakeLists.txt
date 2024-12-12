@@ -57,6 +57,8 @@ endif()
 ###
 ### EXAMPLE:
 ### add_executable( test demo-simple-example.cpp )
-
-add_executable( main main.cpp )
-add_executable( main2 main2.cpp )
+add_executable( addition addition.cpp )
+add_executable( multiplication multiplication.cpp )
+add_executable( matrix_multiplication matrix_multiplication.cpp )
+add_executable( activation_function activation_function.cpp )
+add_executable( test test.cpp )

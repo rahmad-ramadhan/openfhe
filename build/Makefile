@@ -117,78 +117,189 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named addition
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+addition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 addition
+.PHONY : addition
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+addition/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addition.dir/build.make CMakeFiles/addition.dir/build
+.PHONY : addition/fast
 
 #=============================================================================
-# Target rules for targets named main2
+# Target rules for targets named multiplication
 
 # Build rule for target.
-main2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main2
-.PHONY : main2
+multiplication: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 multiplication
+.PHONY : multiplication
 
 # fast build rule for target.
-main2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/build
-.PHONY : main2/fast
+multiplication/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multiplication.dir/build.make CMakeFiles/multiplication.dir/build
+.PHONY : multiplication/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named matrix_multiplication
+
+# Build rule for target.
+matrix_multiplication: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matrix_multiplication
+.PHONY : matrix_multiplication
+
+# fast build rule for target.
+matrix_multiplication/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/build
+.PHONY : matrix_multiplication/fast
+
+#=============================================================================
+# Target rules for targets named activation_function
+
+# Build rule for target.
+activation_function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 activation_function
+.PHONY : activation_function
+
+# fast build rule for target.
+activation_function/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/activation_function.dir/build.make CMakeFiles/activation_function.dir/build
+.PHONY : activation_function/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+activation_function.o: activation_function.cpp.o
+.PHONY : activation_function.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+activation_function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/activation_function.dir/build.make CMakeFiles/activation_function.dir/activation_function.cpp.o
+.PHONY : activation_function.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+activation_function.i: activation_function.cpp.i
+.PHONY : activation_function.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+activation_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/activation_function.dir/build.make CMakeFiles/activation_function.dir/activation_function.cpp.i
+.PHONY : activation_function.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+activation_function.s: activation_function.cpp.s
+.PHONY : activation_function.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+activation_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/activation_function.dir/build.make CMakeFiles/activation_function.dir/activation_function.cpp.s
+.PHONY : activation_function.cpp.s
 
-main2.o: main2.cpp.o
-.PHONY : main2.o
+addition.o: addition.cpp.o
+.PHONY : addition.o
 
 # target to build an object file
-main2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/main2.cpp.o
-.PHONY : main2.cpp.o
+addition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addition.dir/build.make CMakeFiles/addition.dir/addition.cpp.o
+.PHONY : addition.cpp.o
 
-main2.i: main2.cpp.i
-.PHONY : main2.i
+addition.i: addition.cpp.i
+.PHONY : addition.i
 
 # target to preprocess a source file
-main2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/main2.cpp.i
-.PHONY : main2.cpp.i
+addition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addition.dir/build.make CMakeFiles/addition.dir/addition.cpp.i
+.PHONY : addition.cpp.i
 
-main2.s: main2.cpp.s
-.PHONY : main2.s
+addition.s: addition.cpp.s
+.PHONY : addition.s
 
 # target to generate assembly for a file
-main2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/main2.cpp.s
-.PHONY : main2.cpp.s
+addition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addition.dir/build.make CMakeFiles/addition.dir/addition.cpp.s
+.PHONY : addition.cpp.s
+
+matrix_multiplication.o: matrix_multiplication.cpp.o
+.PHONY : matrix_multiplication.o
+
+# target to build an object file
+matrix_multiplication.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.o
+.PHONY : matrix_multiplication.cpp.o
+
+matrix_multiplication.i: matrix_multiplication.cpp.i
+.PHONY : matrix_multiplication.i
+
+# target to preprocess a source file
+matrix_multiplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.i
+.PHONY : matrix_multiplication.cpp.i
+
+matrix_multiplication.s: matrix_multiplication.cpp.s
+.PHONY : matrix_multiplication.s
+
+# target to generate assembly for a file
+matrix_multiplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.s
+.PHONY : matrix_multiplication.cpp.s
+
+multiplication.o: multiplication.cpp.o
+.PHONY : multiplication.o
+
+# target to build an object file
+multiplication.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multiplication.dir/build.make CMakeFiles/multiplication.dir/multiplication.cpp.o
+.PHONY : multiplication.cpp.o
+
+multiplication.i: multiplication.cpp.i
+.PHONY : multiplication.i
+
+# target to preprocess a source file
+multiplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multiplication.dir/build.make CMakeFiles/multiplication.dir/multiplication.cpp.i
+.PHONY : multiplication.cpp.i
+
+multiplication.s: multiplication.cpp.s
+.PHONY : multiplication.s
+
+# target to generate assembly for a file
+multiplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multiplication.dir/build.make CMakeFiles/multiplication.dir/multiplication.cpp.s
+.PHONY : multiplication.cpp.s
+
+test.o: test.cpp.o
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -198,14 +309,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
-	@echo "... main2"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... main2.o"
-	@echo "... main2.i"
-	@echo "... main2.s"
+	@echo "... activation_function"
+	@echo "... addition"
+	@echo "... matrix_multiplication"
+	@echo "... multiplication"
+	@echo "... test"
+	@echo "... activation_function.o"
+	@echo "... activation_function.i"
+	@echo "... activation_function.s"
+	@echo "... addition.o"
+	@echo "... addition.i"
+	@echo "... addition.s"
+	@echo "... matrix_multiplication.o"
+	@echo "... matrix_multiplication.i"
+	@echo "... matrix_multiplication.s"
+	@echo "... multiplication.o"
+	@echo "... multiplication.i"
+	@echo "... multiplication.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

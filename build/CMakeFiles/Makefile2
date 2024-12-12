@@ -63,8 +63,11 @@ CMAKE_BINARY_DIR = /home/rama/openfhe/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
-all: CMakeFiles/main2.dir/all
+all: CMakeFiles/addition.dir/all
+all: CMakeFiles/multiplication.dir/all
+all: CMakeFiles/matrix_multiplication.dir/all
+all: CMakeFiles/activation_function.dir/all
+all: CMakeFiles/test.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +75,142 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
-clean: CMakeFiles/main2.dir/clean
+clean: CMakeFiles/addition.dir/clean
+clean: CMakeFiles/multiplication.dir/clean
+clean: CMakeFiles/matrix_multiplication.dir/clean
+clean: CMakeFiles/activation_function.dir/clean
+clean: CMakeFiles/test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/addition.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rama/openfhe/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/addition.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addition.dir/build.make CMakeFiles/addition.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addition.dir/build.make CMakeFiles/addition.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rama/openfhe/build/CMakeFiles --progress-num=3,4 "Built target addition"
+.PHONY : CMakeFiles/addition.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/addition.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/addition.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/addition.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+addition: CMakeFiles/addition.dir/rule
+.PHONY : addition
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/addition.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addition.dir/build.make CMakeFiles/addition.dir/clean
+.PHONY : CMakeFiles/addition.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main2.dir
+# Target rules for target CMakeFiles/multiplication.dir
 
 # All Build rule for target.
-CMakeFiles/main2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rama/openfhe/build/CMakeFiles --progress-num=3,4 "Built target main2"
-.PHONY : CMakeFiles/main2.dir/all
+CMakeFiles/multiplication.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multiplication.dir/build.make CMakeFiles/multiplication.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multiplication.dir/build.make CMakeFiles/multiplication.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rama/openfhe/build/CMakeFiles --progress-num=7,8 "Built target multiplication"
+.PHONY : CMakeFiles/multiplication.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main2.dir/rule: cmake_check_build_system
+CMakeFiles/multiplication.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/multiplication.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 0
-.PHONY : CMakeFiles/main2.dir/rule
+.PHONY : CMakeFiles/multiplication.dir/rule
 
 # Convenience name for target.
-main2: CMakeFiles/main2.dir/rule
-.PHONY : main2
+multiplication: CMakeFiles/multiplication.dir/rule
+.PHONY : multiplication
 
 # clean rule for target.
-CMakeFiles/main2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/clean
-.PHONY : CMakeFiles/main2.dir/clean
+CMakeFiles/multiplication.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multiplication.dir/build.make CMakeFiles/multiplication.dir/clean
+.PHONY : CMakeFiles/multiplication.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/matrix_multiplication.dir
+
+# All Build rule for target.
+CMakeFiles/matrix_multiplication.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rama/openfhe/build/CMakeFiles --progress-num=5,6 "Built target matrix_multiplication"
+.PHONY : CMakeFiles/matrix_multiplication.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/matrix_multiplication.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/matrix_multiplication.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 0
+.PHONY : CMakeFiles/matrix_multiplication.dir/rule
+
+# Convenience name for target.
+matrix_multiplication: CMakeFiles/matrix_multiplication.dir/rule
+.PHONY : matrix_multiplication
+
+# clean rule for target.
+CMakeFiles/matrix_multiplication.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/clean
+.PHONY : CMakeFiles/matrix_multiplication.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/activation_function.dir
+
+# All Build rule for target.
+CMakeFiles/activation_function.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/activation_function.dir/build.make CMakeFiles/activation_function.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/activation_function.dir/build.make CMakeFiles/activation_function.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rama/openfhe/build/CMakeFiles --progress-num=1,2 "Built target activation_function"
+.PHONY : CMakeFiles/activation_function.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/activation_function.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/activation_function.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 0
+.PHONY : CMakeFiles/activation_function.dir/rule
+
+# Convenience name for target.
+activation_function: CMakeFiles/activation_function.dir/rule
+.PHONY : activation_function
+
+# clean rule for target.
+CMakeFiles/activation_function.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/activation_function.dir/build.make CMakeFiles/activation_function.dir/clean
+.PHONY : CMakeFiles/activation_function.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rama/openfhe/build/CMakeFiles --progress-num=9,10 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rama/openfhe/build/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
